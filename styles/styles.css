@@ -194,6 +194,80 @@
     left: -100px;
 }
 
+.hello{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    border-radius: 50px;
+    background: #FFF;
+}
+.button{
+    padding: 0;
+    padding-left: 6rem;
+    
+    display: grid;
+    grid-template-columns: repeat(5,auto) ;
+    margin-bottom: 5rem;
+    
+}
+.icon{
+    /* width: 50%; */
+    height: 30px;
+    width: 30px;
+}
+.icon-text{
+    font-weight: 600;
+    font-size: 1rem;
+    color: #0B0223;
+}
+
+/* footer section */
+footer{
+    background: #0B0223;
+}
+
+.again{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .6rem;
+    padding-top: 4rem;
+}
+.white{
+    color: white;
+}
+.again img{
+    height: 30px;
+}
+.services{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1.5rem 24rem;
+}
+.texty{
+    color: white;
+    font-size: .7rem;
+    font-weight: 600;
+}
+.conditions{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.terms{
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: .7rem;
+}
+.laast{
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: .7rem;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+/* mediaaaaaaa */
 
 @media  screen and (max-width:576px) {
     .nav-bar,.bannner,.second-part,.cards-container,.play-instant{
@@ -260,6 +334,29 @@
         bottom: 100px;
         left: 40px;
     }
+    .button{
+        grid-template-columns: repeat(3,1fr);
+        padding: 0;
+    }
+    .icon{
+        /* width: 50%; */
+        height: 20px;
+        width: 20px;
+    }
+    .icon-text{
+        font-weight: 600;
+        font-size: .7rem;
+        color: #0B0223;
+    }
+    .services{
+        flex-direction: column;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    .conditions{
+        gap: .6rem;
+    }
     
 }
 
@@ -310,4 +407,25 @@
         bottom: 150px;
         left: -80px;
     }
+    .button{
+        grid-template-columns: repeat(3,1fr);
+        padding: 0;
+    }
+    .icon{
+        /* width: 50%; */
+        height: 25px;
+        width: 25px;
+    }
+    .icon-text{
+        font-weight: 600;
+        font-size: .8rem;
+        color: #0B0223;
+    }
+    .services{
+        flex-direction: column;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    
 }
