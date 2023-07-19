@@ -360,14 +360,19 @@ footer{
     }
     .first-part{
         padding: 0;
-        padding-right: 15rem;
         font-size: 1.5rem;
         padding-top: 2rem;
-        gap: 1rem;
+        gap: 0;
+    }
+    .first-part h3{
+        padding-left: 0;
     }
     .first-part img{
         width: 100%;
         height: 2rem;
+        padding-left: 0;
+        position: relative;
+        left: -20px;
         
     }
     .second-part{
