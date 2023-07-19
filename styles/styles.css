@@ -340,7 +340,7 @@ footer{
         padding: 0;
         padding-right: 15rem;
         font-size: 1.5rem;
-        padding-top: 5rem;
+        padding-top: 2rem;
         gap: 1rem;
     }
     .first-part img{
@@ -415,6 +415,16 @@ footer{
     }
     .conditions{
         gap: .6rem;
+    }
+
+    .nav-bar{
+        padding-top: 0;
+        margin-top: 0;
+        /* gap: .1rem; */
+    }
+    .nav-bar .first-part img{
+        height: 1.8rem;
+        width: 3.8rem
     }
     
 }
