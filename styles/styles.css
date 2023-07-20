@@ -393,9 +393,16 @@ footer{
         position: relative;
         left: -30px;
     }
+    .cards-container{
+        padding: 0 auto;
+        /* margin-right: 4rem; */
+    }
     .cards-desc{
-        padding: 0;
-        padding-right: 4rem;
+        padding: 0 auto;
+        /* padding-right: 4rem;
+        margin-right: 1rem; */
+        width: 16rem;
+        /* padding-left: 2rem; */
     }
     .play-instant{
         gap: 2rem;
@@ -569,4 +576,10 @@ footer{
         margin-bottom: 0;
         padding-bottom: 0;
     }
-}
+    /* .cards-desc{
+        /padding: 0 auto;
+         padding-right: 8rem;
+        
+        width: 20rem;
+        padding-left: 4rem;
+    }  */
